@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Table of Contents</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="javascript.js"></script>
+</head>
+<body onload="displayDateTime()">
+    <div id="frameset">
+        <div id="header" class="header">
+            <h1>Internet and Web Application Development</h1>
+        </div>
+        <div id="content">
+            <div id="table-of-contents">
+                <h2>Table of Contents</h2>
+                <ul>
+                    <li><a href="details.html" target="content">Student Details</a></li>
+                    <li><a href="grade_map.html" target="content">Grade</a></li>
+                    <li class="links icon"><a href="syllabus.html" target="content">Course Syllabus</a>
+                        <ul>
+                            <li><a href="syllabus.html#internet_applications" target="content">Internet Application</a></li>
+                            <li><a href="syllabus.html#data_structures" target="content">Data Structures</a></li>
+                            <li><a href="syllabus.html#network_security" target="content">Network Security</a></li>
+                            <li><a href="syllabus.html#web_development" target="content">Web Development</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="info">
+                    <p class="f-sm">Email: <a href="mailto:studen@example.com">stu@gmail.com</a></p>
+                    <p><img src="student.jpg" alt="Student Image" width="150" height="150" /></p>
+                </div>
+            </div>
+            <!-- ****************FREME-CONTENT*********** -->
+            <div class="frame-content">
+                <div class="table-container">
+                    <div class="table-header">
+                <h1>Student Details</h1>
+                </div>
+
+    <table summary="This table contains the grades of the student for various courses taken" border="1" cellpadding="5" cellspacing="0" width="100%">
+        <caption>Grades for Completed Courses</caption>
+        <colgroup>
+            <col span="1" />
+            <col span="1" />
+            <col span="1" />
+            <col span="1" />
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Course Number</th>
+                <th>Course Title</th>
+                <th>Credit Hours</th>
+                <th>Grade Earned</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>CS101</td>
+                <td>Introduction to Computer Science</td>
+                <td>3</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>CS102</td>
+                <td>Data Structures</td>
+                <td>3</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>CS103</td>
+                <td>Web Development</td>
+                <td>3</td>
+                <td >A+</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+                <p id="footer" class="align-center">
+                    <a href="#" onclick="prevPage()">[prev]</a>
+                    <a href="index.html">[home]</a>
+                    <a href="#" onclick="nextPage()">[next]</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
